@@ -1,0 +1,50 @@
+[33mcommit a3a026dbfe8875590d0dedf52a9ce3ce2021a483[m[33m ([m[1;36mHEAD -> [m[1;32mnico/loginPage_implementation[m[33m)[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Tue Jan 14 20:12:40 2020 +0800
+
+    EOD created register page
+
+[33mcommit 516a44d166c35ea2f3d6039b463d19f121a3ac92[m[33m ([m[1;31morigin/nico/loginPage_implementation[m[33m)[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Mon Jan 13 20:21:23 2020 +0800
+
+    making login page
+
+[33mcommit e9961ffa77672751b7eed3f4f711679b899749c5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: cc3dc75 cff5565
+Author: nicolanilomartino <48813233+nicolanilomartino@users.noreply.github.com>
+Date:   Mon Jan 13 13:04:56 2020 +0800
+
+    Merge pull request #1 from nicolanilomartino/nico/MasterNavbar
+    
+    Nico/master navbar
+
+[33mcommit cff55653372b8c0facead346ff1904d59cb851c7[m[33m ([m[1;31morigin/nico/MasterNavbar[m[33m, [m[1;32mnico/MasterNavbar[m[33m)[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Mon Jan 13 13:01:43 2020 +0800
+
+    home page implementation completed, moving to login page
+
+[33mcommit 5544f2aff227d2dfe6b1a5180e311c47257f8152[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Fri Jan 10 20:40:38 2020 +0800
+
+    created navbar, EOD
+
+[33mcommit cc3dc75bf094ca95197b04b0170ad653d4ba919d[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Thu Jan 9 20:30:07 2020 +0800
+
+    created BG and upperHeader
+
+[33mcommit a0c16fb6af1544e430cc6ac47574cd871a4d1445[m
+Author: nico <nicolanilomartino@yahoo.com>
+Date:   Wed Jan 8 21:14:16 2020 +0800
+
+    working on upper header
+
+[33mcommit b7ada6fea69cce76110aea1c45042e7e2dd80ce3[m
+Author: nicolanilomartino <48813233+nicolanilomartino@users.noreply.github.com>
+Date:   Wed Jan 8 12:56:06 2020 +0800
+
+    Initial commit

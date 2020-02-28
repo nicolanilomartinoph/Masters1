@@ -1,0 +1,562 @@
+.myr {
+    border: 1px dashed red;
+}
+.myc {
+    border: 1px dashed blue;
+}
+
+body,
+html {
+    background-color: black;
+}
+
+#Page1 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+#Page2 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1000px;
+    max-width: 2000px;
+}
+
+#Page3 {
+    background-image: url("/img/HomepageBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-height: 1000px;
+    max-width: 2000px;
+}
+
+#UpperHeaderCont {
+    background-image: url("/img/upperHeaderBG.png");
+    height: 40px;
+    color: #c6c6c6;
+}
+
+.UpperHeaderText {
+    color: #c6c6c6;
+}
+
+#downArrow {
+    height: 20px;
+    width: 30px;
+}
+
+/* --------------- NAVBAR --------------- */
+
+#NavBarCont {
+    height: 80px;
+    width: 100%;
+    max-width: 1100px;
+    min-width: 800px;
+    background-image: url("/img/navbar/NavbarCont.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#NavbarContAlt {
+    background-image: url("/img/navbar/navbarbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+}
+
+#masterLogoAlt {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.modal_hover:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+#leftModalBtn {
+    background: transparent;
+    outline: 0;
+    border: none;
+}
+
+#leftModal {
+    position: fixed;
+    background: rgb(42, 8, 2);
+    left: 0px;
+    width: 30vw;
+    height: 100%;
+}
+
+#lnau_header {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.lnau_img {
+    height: 150px;
+    width: 200px;
+}
+
+.lnau_title {
+    text-shadow: 0px 0px 10px black;
+}
+
+.lnau_date {
+    text-shadow: 0px 0px 10px black;
+}
+
+.close_modal_button {
+    font-size: 30px;
+}
+
+.modal_items {
+    font-size: 20px;
+}
+
+.modal.left.slide {
+    left: 300px;
+    -webkit-transition: left 2 ease-in-out;
+    -ms-transition: left 2 ease-in-out;
+    -o-transition: left 2 ease-in-out;
+    transition: left 2 ease-in-out;
+}
+
+.nvbut {
+    height: 78px;
+    margin: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#searchIcon {
+    font-size: 25px;
+    position: relative;
+    left: 70%;
+    right: 20;
+    background: linear-gradient(
+        #ccb578,
+        #bda664 25%,
+        #8d6d1e 50%,
+        #bda664 75%,
+        #ccb578
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nvbut span {
+    font-family: sans-serif;
+    background: linear-gradient(#ccb578, #bda664 25%, #8d6d1e 60%, #76580e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.nvbut span:hover {
+    background: linear-gradient(#ccb578, #bda664 25%, #8d6d1e 60%, #76580e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: filluptext;
+    animation-fill-mode: forwards;
+    animation-duration: 0.1s;
+}
+
+@keyframes filluptext {
+    100% {
+        background: linear-gradient(
+            #424242 0%,
+            #424242 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    90% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #424242 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    80% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #424242 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    70% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #424242 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #424242 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #424242 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    40% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #424242 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #424242 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    20% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #424242 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    10% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #6d5618 90%,
+            #424242 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    0% {
+        background: linear-gradient(
+            #ccb578 0%,
+            #af995d 10%,
+            #9c8647 30%,
+            #816b2f 40%,
+            #6e5920 50%,
+            #6e5920 60%,
+            #7c6524 70%,
+            #725b1e 80%,
+            #6d5618 90%,
+            #76580e 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+#masterLogo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -50px;
+    top: -30px;
+}
+
+#marginHeader {
+    margin-right: 100px;
+}
+
+#emptySpace {
+    background-image: url("/img/navbar/emptySpace.png");
+    width: 9.9%;
+}
+#gameCont {
+    background-image: url("/img/navbar/newsCont.png");
+    width: 9.9%;
+}
+#newsCont {
+    background-image: url("/img/navbar/newsCont.png");
+    width: 9.9%;
+}
+#forumCont {
+    background-image: url("/img/navbar/forumCont.png");
+    width: 9.9%;
+}
+#storeCont {
+    background-image: url("/img/navbar/storeCont.png");
+    width: 9.9%;
+}
+#concertCont {
+    background-image: url("/img/navbar/concertCont.png");
+    width: 9.9%;
+}
+#sinewaveCont {
+    background-image: url("/img/navbar/sinewaveCont.png");
+    width: 9.9%;
+}
+#searchCont {
+    background-image: url("/img/navbar/searchCont.png");
+    width: 9.9%;
+}
+#loginCont {
+    background-image: url("/img/navbar/loginCont.png");
+    width: 9.9%;
+}
+#registerCont {
+    background-image: url("/img/navbar/registerCont.png");
+    width: 9.9%;
+}
+
+#hpbody {
+    margin-top: 12%;
+}
+
+#enter_your_music_text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 120px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#leftPaneParagraph {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+#DLandExploreTheMasters a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #hpbody {
+        margin-top: 4%;
+    }
+
+    #enter_your_music_text {
+        line-height: 80px;
+        text-shadow: 0px 0px 3px black;
+    }
+    #leftPaneParagraph {
+        height: 30px;
+    }
+}
+
+#ExploreTheMasters {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #a88c37;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+    color: #bda664;
+    font-weight: 600;
+    letter-spacing: 2px;
+    min-width: 200px;
+}
+
+#Download {
+    background-color: rgba(50, 1, 1, 0.5);
+    border: 2px solid #dc6f6f;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+    color: #bda664;
+    font-weight: 600;
+    letter-spacing: 2px;
+    min-width: 140px;
+}
+
+#ExploreTheMasters:hover {
+    background-color: rgba(61, 61, 61, 0.5);
+}
+#Download:hover {
+    background-color: rgba(61, 61, 61, 0.5);
+}
+
+@media only screen and (max-width: 1200px) {
+    #musicians5 {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #musicians5 {
+        height: 300px;
+        width: 150px;
+    }
+}
+
+.hover_transform {
+    transform: scale(1, 1);
+    transition: 1s;
+}
+
+.hover_transform:hover {
+    transform: scale(1.05, 1.05);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+/* DASHBOARD */
+
+#dashboard {
+    background: rgb(1, 16, 34);
+}
+
+#brand {
+    font-size: 40px;
+}
+
+.navText {
+    font-size: 20px;
+}
+
+.dbNavbarItems {
+    font-size: 17px;
+}
+
+.sideCategory {
+    height: 60px;
+    text-decoration: "none";
+}
+
+.sideCategory:hover {
+    background: rgb(39, 40, 73);
+}
+
+.sideCategory a {
+    text-decoration: none;
+}
+
+#DBBodyCont {
+    height: 1000px;
+}
+
+#dbBodyHeader {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+#build_icon {
+    font-size: 100px;
+    color: white;
+}
+
+#pageUnderConstruction {
+    color: white;
+    font-size: 50px;
+}

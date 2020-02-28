@@ -1,0 +1,59 @@
+/* LOGIN PAGE */
+
+#loginPageCont {
+    height: 100%;
+    width: 100%;
+}
+
+.darkinputs {
+    background-color: rgba(6, 4, 31, 0.3);
+    border: 1px solid black;
+    color: white;
+}
+
+#loginButton {
+    background: rgb(56, 147, 250);
+    border: 1px solid black;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+}
+
+.fa-facebook-official {
+    color: white;
+    font-size: 200%;
+    line-height: 40px;
+    background: rgb(56, 147, 250);
+}
+
+#google-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+    background: rgb(56, 147, 250);
+}
+
+.light-blue-text {
+    color: rgb(125, 186, 255);
+}
+
+#google-icon-cont {
+    line-height: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: rgb(56, 147, 250);
+}
+
+.loginFooter {
+    margin-top: 150px;
+    color: white;
+}
+
+.footerItems {
+    color: white;
+}
+
+#create_an_account {
+    font-size: 40px;
+}

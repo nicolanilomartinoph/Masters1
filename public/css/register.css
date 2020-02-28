@@ -1,0 +1,62 @@
+/* REGISTER PAGE */
+
+.darkbg {
+    background: rgb(1, 16, 34);
+}
+
+.registerInputbg {
+    background-color: rgba(0, 21, 47, 0.5);
+    border: none;
+}
+
+#registerMasterLogo {
+    width: 150px;
+    height: 150px;
+}
+
+#create_an_account {
+    color: white;
+    font-size: 30px;
+}
+
+.registerCheckbox {
+    position: relative;
+    left: 3%;
+    font-size: 15px;
+    color: white;
+}
+
+#create_a_free_account {
+    height: 4vh;
+    color: white;
+    background: rgb(125, 186, 255);
+    border: 2px solid rgb(46, 107, 177);
+}
+
+#already_have_an_account {
+    height: 4vh;
+    color: rgb(125, 186, 255);
+    background: rgba(0, 17, 36, 0.5);
+    border: 2px solid rgb(46, 107, 177);
+}
+
+.footerSeparator {
+    color: rgb(19, 19, 19);
+}
+
+.regnlogAPI {
+    font-size: 30px;
+    text-decoration: none;
+    background: rgb(48, 124, 211);
+    border: 1px solid rgb(56, 147, 250);
+    line-height: 50px;
+}
+
+#google-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#checkbox_text {
+    margin-left: 10px;
+}
