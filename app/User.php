@@ -10,13 +10,18 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    public function musician()
+    {
+        return $this->hasOne('App\Musician', 'musician_id');
+    }
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'username', 'firstname', 'middlename', 'lastname', 'email', 'password', 'secret_question', 'secret_answer'
     ];
 
     /**

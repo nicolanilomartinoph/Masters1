@@ -11,9 +11,11 @@ class MyAccount extends React.Component {
 
     render() {
         return (
-            <div className="row">
+            <div className="row mx-auto">
                 <a href="#" className="UpperHeaderText">MyAccount</a>
-                <a href="#"><img className="my-auto ml-4" src="/img/downArrow.png" id="downArrow" /></a>
+                <a href="#" >
+                    <img className="my-auto ml-4 mt-3" src="/img/downArrow.png" id="downArrow" />
+                </a>
             </div>
         );
     }

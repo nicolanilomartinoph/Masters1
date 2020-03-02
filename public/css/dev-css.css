@@ -556,7 +556,24 @@ html {
     color: white;
 }
 
-#pageUnderConstruction {
+.DBsectionHeader {
+    font-size: 40px;
+    background: rgb(44, 77, 119);
+}
+
+.DBsectionBody {
+    background: rgb(26, 44, 68);
+}
+
+.DBinput {
+}
+
+#selectionResult {
+    height: 700px;
+    max-height: 1200px;
+}
+
+.pageUnderConstruction {
     color: white;
     font-size: 50px;
 }

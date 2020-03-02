@@ -29,7 +29,7 @@ class DBBodyCont extends React.Component {
                         <h1 className="col-12 " id="dbBodyHeader">{this.state.header}</h1>
                     </header>
                 </div>
-                <DBBody />
+                <DBBody bodyCategory={this.state.header} />
             </div>
         );
     }

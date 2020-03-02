@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-fluid" id="dashboard">
     <div class="row">
-        <div class="col-12" >
+        <div class="col-12">
             <nav class="navbar navbar-expand-md navbar-light shadow-sm">
                 <div class="container">
                     <a class="navbar-brand text-light" href="{{ url('/') }}" id="brand">
@@ -33,43 +33,43 @@
                                 <a class="nav-link text-light dbNavbarItems" href="#">
                                     NEWS
                                 </a>
-                            </li>   
+                            </li>
                         </ul>
 
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
                             <!-- Authentication Links -->
                             @guest
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                                @if (Route::has('register'))
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                    </li>
-                                @endif
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            </li>
+                            @endif
                             @else
-                                <li class="nav-item dropdown">
-                                    <a class="h3 nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" data-target="#logout">
-                                        {{ Auth::user()->firstname }}
-                                    </a>
-                                    <ul id="logout" class="dropdown-menu collapse">
-                                        <li class="text-center">
-                                            <a href="#">
-                                                Settings 
-                                            </a>
-                                        </li>
-                                        <li class="text-center">
-                                            <a class=""href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                                                Logout
-                                            </a>
-                                        </li>
-                                    </ul>
+                            <li class="nav-item dropdown">
+                                <a class="h3 nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" data-target="#logout">
+                                    {{ Auth::user()->firstname }}
+                                </a>
+                                <ul id="logout" class="dropdown-menu collapse">
+                                    <li class="text-center">
+                                        <a href="#">
+                                            Settings
+                                        </a>
+                                    </li>
+                                    <li class="text-center">
+                                        <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+                                    </li>
+                                </ul>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            @csrf
-                                    </form>
-                                </li> 
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </li>
                             @endguest
                         </ul>
                     </div>
@@ -77,7 +77,7 @@
             </nav>
         </div>
         <div class="container-fluid">
-            <div  id="DBCont"></div>
+            <div id="DBCont"></div>
         </div>
     </div>
 </div>
